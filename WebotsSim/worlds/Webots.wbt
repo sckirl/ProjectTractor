@@ -1,16 +1,96 @@
 #VRML_SIM R2025a utf8
+
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/generic/Tractor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/UnevenTerrain.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/PalmTree.proto"
+
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5773 0.5773 0.5773 2.0944
-  position 0 0 10
+  orientation 0.05277444248156406 0.9967955084730507 -0.0601129978350132 0.8638923913388876
+  position 7.213974274464883 -13.167906944762354 10.83492522056123
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
-RectangleArena {
+UnevenTerrain {
+  translation 0 0 -3.56
+}
+Tractor {
+  hidden position_0_0 0.019847550787954298
+  hidden position2_0_0 401.0305402003825
+  hidden position_0_1 0.020139581402513537
+  hidden position2_0_1 404.48640223673317
+  hidden position_0_2 13.97718489450406
+  hidden position_0_3 12.758975909119489
+  hidden linearVelocity_0 4.2278516710442104e-05 -0.000718938381986211 -2.2280887017345002e-05
+  hidden angularVelocity_0 0.0003515776028587117 1.456694293300712e-05 1.813321785477287e-06
+  hidden rotation_1 0.46847185344801273 0.4592632127385576 0.7547260588796721 1.8294193743626197
+  hidden linearVelocity_1 3.16302429158956e-05 -0.0005611744308000886 -4.51215213790776e-05
+  hidden angularVelocity_1 0.0005036932274730215 0.0001484815544277447 1.8768187414140705e-05
+  hidden rotation_2 0.6864194551946255 0.6727301441065766 0.2761566308105925 2.5922866297834477
+  hidden linearVelocity_2 4.763329069655421e-05 -0.0005115936669457167 -0.0003235692378263691
+  hidden angularVelocity_2 0.0005026792535623533 0.0001364308620930806 1.8249430524128335e-05
+  hidden rotation_3 -0.5440116778384914 -0.5440096795756901 0.638830777986866 2.004629426631619
+  hidden linearVelocity_3 2.523927901572809e-05 -0.0006235297412845404 0.0003011720357655042
+  hidden angularVelocity_3 0.0005141701656091781 0.0001547312979551312 1.923589259592876e-05
+  hidden rotation_4 0.09571242489235275 0.09571207332163117 0.9907968160736592 1.5800456629792696
+  hidden linearVelocity_4 3.1989569616721665e-05 -0.0005820320821720862 7.550976218490457e-05
+  hidden angularVelocity_4 0.00045209129538289464 9.314625573412217e-05 9.157645696353326e-06
+  translation 16.585741318778524 -14.079573420629675 0.009829054685261684
+  rotation 0.1638927691951215 0.11932300075809266 -0.9792349981978988 0.8618924441102384
+  controller "autonomous_vehicle"
+  sensorSlot [
+    Camera {
+      translation -1.11 0 0
+      lens Lens {
+      }
+    }
+  ]
+}
+PalmTree {
+  translation -9.61 6.42 -0.69
+}
+PalmTree {
+  translation -5.46 6.42 -0.69
+  name "palm tree(1)"
+}
+PalmTree {
+  translation -1.9 6.42 -0.69
+  name "palm tree(2)"
+}
+PalmTree {
+  translation 2.54 6.42 -0.69
+  name "palm tree(3)"
+}
+PalmTree {
+  translation 6.73 6.42 -0.69
+  name "palm tree(4)"
+}
+PalmTree {
+  translation -9.61 -4.73 -0.69
+  name "palm tree(5)"
+}
+PalmTree {
+  translation -5.94 -4.68 -0.69
+  name "palm tree(6)"
+}
+PalmTree {
+  translation -1.29 -4.68 -0.69
+  name "palm tree(8)"
+}
+PalmTree {
+  translation 4.25 -4.68 -0.69
+  name "palm tree(9)"
+}
+PalmTree {
+  translation 8.51 -4.68 -0.69
+  name "palm tree(10)"
+}
+PalmTree {
+  translation -9.61 6.42 -0.69
+  name "palm tree(7)"
 }
